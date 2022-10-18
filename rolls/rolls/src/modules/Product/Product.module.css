@@ -1,0 +1,40 @@
+.product{
+    width: 250px;
+    height: 375px;
+    border: 3px solid black;
+    border-radius: 5px;
+}
+
+.productInner {
+    width: 200px;
+    margin: 5% auto;
+}
+
+.productInner h1{
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: left;
+}
+
+.prodTitle,.prodValue{margin-top: 5%;}
+
+.prodPrice{margin-top: 15%;}
+
+.prodBtns{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15%;
+}
+
+.prodBtns button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    height: 23px;
+}
+
+.prodBtns button:hover{
+    cursor: pointer;
+}
