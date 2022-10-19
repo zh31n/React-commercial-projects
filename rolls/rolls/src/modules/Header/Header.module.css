@@ -55,6 +55,7 @@ a{
     
 }
 
-.nav a {
-    color: black;
-}
+.nav a {color: black;}
+
+.nav a:hover{cursor: pointer;}
+

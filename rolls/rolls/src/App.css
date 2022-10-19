@@ -11,3 +11,20 @@
   max-width: 1200px;
   margin: auto;
 }
+
+
+body::-webkit-scrollbar {
+  width: 7px;
+  height: 10px;               
+}
+
+body::-webkit-scrollbar-track {
+  background: black;        
+}
+
+body::-webkit-scrollbar-thumb {
+  background-color: white;    
+  border-radius: 20px;
+      
+  border: 2px solid black;  
+}
