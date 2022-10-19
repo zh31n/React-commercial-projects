@@ -22,8 +22,20 @@
     padding: 20px;
     border-radius: 12px;
     background-color: white;
-    width: 400px;
-    height: 600px;
+    width: 600px;
+}
+
+.modalTitle{
+    display: inline-block;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.modalPrice{
+    margin-top: 3%;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: right;
 }
 
 .close {
@@ -31,4 +43,15 @@
     font-size: 28px;
     font-weight: bold;
     cursor: pointer;
+    position: relative;
+    
 }
+
+.contentInner{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 100%;
+    margin: auto;
+}
+
+
