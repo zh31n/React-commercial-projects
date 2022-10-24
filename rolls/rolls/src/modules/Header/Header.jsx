@@ -17,7 +17,7 @@ const Header = () =>{
                     <div className={s.nav}>
                         <div><a className="navRolls">Роллы</a></div>
                         <div><a className="navSets">Сеты</a></div>
-                        <div><a className="navSush">Суши</a></div>
+                        <div><a className="navSush">Напитки</a></div>
                         <div><a className="navBusket" onClick={() => setModalActive(true)}>Корзина</a></div>
                     </div>
                 </div>

@@ -9,7 +9,6 @@ const App = () => {
     <div className="app">
       <Header />
       <Products />
-      <Products />
     </div>
   );
 }
